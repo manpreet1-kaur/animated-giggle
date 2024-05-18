@@ -1,0 +1,183 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+header{width: 100%;
+height: 100vh;
+background-color: rgb(178, 160, 204);
+
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color: rgb(171, 150, 190);
+    font-family: monospace;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(10, 9, 10);
+    padding: 0.5rem 1rem;
+}
+.menu a:hover{
+    color: rgb(191, 196, 224);
+    border-radius: 8px;
+    }
+    .menu a.active{
+        color: rgb(191, 196, 224);
+
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            flex-wrap: wrap;
+            padding: 0 70px;
+
+
+        }
+        .left{
+            flex-basis: 60%;
+        }
+        .right{
+            flex-basis: 30%;
+        }
+        .left h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(59, 42, 22);
+            
+        }
+        
+.left p{
+    line-height: 2.5rem;
+
+}
+#contact me{
+    text-decoration: none;
+    background: blanchedalmond;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+
+}
+#download cv{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin: 0 1rem
+}
+#bio{
+background-color: rgb(178, 160, 204);
+background-color:;
+    
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap:wrap ;
+}
+
+.leftbio{
+    flex-basis: 40%;
+}
+
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 100%;
+    height: 700%;
+    border-radius: 8px;                                                                                                             
+}
+.rightbio {
+    text-align: right;
+    padding: 0 40px;
+
+}
+.rightbio p{
+    margin:15px 0;
+    line-height: 2.5rem ;
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: rgb(12, 12, 11);
+font-size: 1.5rem;
+margin: 0 0.5rem;
+}
+
+.link- h{
+    text-align: center;
+    margin-top: 3rem;
+}
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 2px;
+    margin: 0 1rem;
+    border: 1px darkslategrey;
+    
+}
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+    font-size: medium;
+    background-color: rgb(178, 160, 204), 160, 204 ;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.content {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:rgb(179, 177, 180)
+    
+}
